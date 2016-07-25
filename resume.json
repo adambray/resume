@@ -1,130 +1,197 @@
 {
   "basics": {
     "name": "Adam Bray",
-    "label": "Programmer",
+    "label": "Developer, Teacher, Optimizer",
     "picture": "",
     "email": "adam.bray@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "phone": "(203) 745-8767",
+    "website": "http://adambray.me",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "420 16th St SE, Apt 207",
+      "postalCode": "DC 20003",
+      "city": "Washington",
       "countryCode": "US",
-      "region": "California"
+      "region": "District of Columbia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "network": "GitHub",
+        "username": "adambray",
+        "url": "https://github.com/adambray"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "Twitter",
+        "username": "adambray",
+        "url": "https://twitter.com/adambray"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "General Assembly",
+      "position": "Software Developer",
+      "website": "http://generalassemb.ly",
+      "startDate": "2016-05-01",
+      "endDate": "2016-07-22",
+      "summary": "",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Developed full-stack solution for an online code-editor, REPL, and test interface used by students of General Assembly's online JS course.",
+        "Along with one other developer, led the introduction of React/Redux to build a flexible interface capable of scaling to multiple language courses.",
+        "Built out early infrastructure for a new learning platform to be used by all GA students, focusing on integrating with existing GA core APIs.",
       ]
-    }
+    },
+    {
+      "company": "General Assembly",
+      "position": "Instructor, Web Development Immersive / Instructional Coach",
+      "website": "http://generalassemb.ly",
+      "startDate": "2014-02-01",
+      "endDate": "2016-05-01",
+      "summary": "",
+      "highlights": [
+        "Designed curriculum for, and taught 12-week immersive course in full-stack web development.",
+        "Received excellent feedback from students over 6 courses, averaging 4.7 / 5 on all criteria.",
+        "Designed lessons for and taught additional courses, including the Data Science Immersive.",
+        "Developed and delivered training for new instructors, and advanced workshops for returning instructors.",
+        "Provide instructor feedback and coaching to ensure world-class instructional quality in all courses.",
+        "Lead team of instructors in creating advanced applications for tracking student progress.",
+      ]
+    },
+    {
+      "company": "Spylight",
+      "position": "Independent Consultant / Software Developer",
+      "website": "https://spylight.com",
+      "startDate": "2013-09-01",
+      "endDate": "2014-3-15",
+      "summary": "",
+      "highlights": [
+        "Served as lead developer and technology consultant for seed-funded startup.",
+        "Designed and implemented complex data model to track fashion information for TV, Movies, and more.",
+        "Developed full-stack Rails app and API to serve spylight.com and Spylight iOS App.",
+        "Designed and developed admin interface to optimize collection of information by 50+ on-set consultants.",
+      ]
+    },
+    {
+      "company": "Yale University",
+      "position": "Program Manager, Student Developer Program",
+      "website": "http://its.yale.edu/centers/student-technology-collaborative/student-developer-program",
+      "startDate": "2012-07-01",
+      "endDate": "2014-01-30",
+      "summary": "",
+      "highlights": [
+        "Proposed, designed, and implemented the innovative Yale Student Developer Program; serving as program manager and chair of steering committee.",
+        "Taught courses in software development to 25-50 students per semester.",
+        "Served as Technical Lead for a team of 20 Student Developers designing, building, testing, and supporting applications for the University, including mission-critical academic applications.",
+        "Met with clients from across the university to gather requirements and plan project development.",
+        "Served as lead instructor for 9-week immersive summer web development bootcamp with the Yale Entrepreneurial Institute.",
+      ]
+    },
+    {
+      "company": "Yale University",
+      "position": "Assistant Manager, Student Technology",
+      "website": "http://its.yale.edu/centers/student-technology-collaborative/",
+      "startDate": "2016-5-01",
+      "endDate": "2016-7-22",
+      "summary": "",
+      "highlights": [
+        "Hired, trained, and managed 80 - 120 student employees per year (in technology & digital media support, application development).",
+        "Served as technical and customer service lead for student help requests (~4000 / year), including Dell and Apple warranty-certified repairs.",
+        "Acted as a liaison between Yale ITS and the student body.",
+      ]
+    },
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "organization": "ResNet",
+      "position": "Vice President / Director of Conference Management",
+      "website": "http://resnetinc.org/",
+      "startDate": "2011-01-10",
+      "endDate": "2014-01-30",
+      "summary": "International non-profit focused on collaboraton among higher-ed institutions in the field of student technology.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Led all aspects of planning, coordination, and execution for the 2011 ResNet Student Technology Conference, including facilities, catering, and program content.",
+        "Served as an advocate for the organization with external partners such as conference vendors",
+        "Provide technology leadership and set up software to facilitate member outreach and conference organization",
+        "As Vice President (2013 - 2014), led annual review and revision of corporation policies.",
+        "Delivered presentations and full-day workshops at annual conferences from 2008 - 2013.",
+      ]
+    },
+    {
+      "organization": "RailsGirls",
+      "position": "Coach / Mentor",
+      "website": "http://http://railsgirls.com/",
+      "startDate": "2014-01-20",
+      "endDate": "2014-06-30",
+      "summary": "International non-profit that gives tools and a community for women to understand technology and to build their ideas.",
+      "highlights": [
+        "Provided training / coaching for attendees of 2-day RailsGirls workshops.",
+        "Provided ongoing mentorship to attendees of weekly meetups for learning web development."
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
+      "institution": "Yale University",
+      "area": "Physics",
+      "studyType": "Bachelor of Science",
+      "startDate": "2003-09-01",
+      "endDate": "2007-12-15",
+    },
+    {
+      "institution": "New York University",
+      "area": "Computer Science",
+      "studyType": "PAC I Course - NYU Grad School",
+      "startDate": "2013-09-01",
+      "endDate": "2013-12-15",
+    },
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "title": "SURF Research Fellowship",
+      "date": "2003-05-01",
+      "awarder": "Caltech - California Institute of Technology",
+      "summary": "One of few high school students awarded a research fellowship. During the summer of 2003, I continued my HS senior research in partnership with the LIGO Gravitation Wave Observatory. Research involved performing computational analysis to correlate seismic activity with gulf wave activity, in order to predict and actively cancel out seismic activity at the observatory."
     }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Front-End Web Development",
+      "level": "Expert",
       "keywords": [
         "HTML",
-        "CSS",
-        "Javascript"
+        "CSS / SASS",
+        "Javascript / ES2015",
+        "Backbone",
+        "Angular 1.x (Proficient)",
+        "React / Redux",
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Back-End Web Developemnt",
+      "level": "Expert",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Ruby / Rails",
+        "Node.js / Express",
+        "PostgreSQL / MySQL / MongoDB",
       ]
-    }
-  ],
-  "languages": [
+    },
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "name": "Other",
+      "level": "Varies",
+      "keywords": [
+        "Python (Proficient)",
+        "Machine Learning / Scikit-learn (Proficient)",
+        "Swift / iOS Developemt (Basic)",
+        "Java (Basic)",
+        "Application Deployment / AWS (Proficient)"
+
+      ]
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "name": "Traveling, non-fiction, nature photography, and cycling."
     }
   ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
+  "references": ["Available on request."]
 }
