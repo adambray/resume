@@ -38,7 +38,7 @@
       "highlights": [
         "Developed full-stack solution for an online code-editor, REPL, and test interface used by students of General Assembly's online JS course.",
         "Along with one other developer, led the introduction of React/Redux to build a flexible interface capable of scaling to multiple language courses.",
-        "Built out early infrastructure for a new learning platform to be used by all GA students, focusing on integrating with existing GA core APIs.",
+        "Built out early infrastructure for a new learning platform to be used by all GA students, focusing on integrating with existing GA core APIs."
       ]
     },
     {
@@ -54,7 +54,7 @@
         "Designed lessons for and taught additional courses, including the Data Science Immersive.",
         "Developed and delivered training for new instructors, and advanced workshops for returning instructors.",
         "Provide instructor feedback and coaching to ensure world-class instructional quality in all courses.",
-        "Lead team of instructors in creating advanced applications for tracking student progress.",
+        "Lead team of instructors in creating advanced applications for tracking student progress."
       ]
     },
     {
@@ -62,13 +62,13 @@
       "position": "Independent Consultant / Software Developer",
       "website": "https://spylight.com",
       "startDate": "2013-09-01",
-      "endDate": "2014-3-15",
+      "endDate": "2014-03-15",
       "summary": "",
       "highlights": [
         "Served as lead developer and technology consultant for seed-funded startup.",
         "Designed and implemented complex data model to track fashion information for TV, Movies, and more.",
         "Developed full-stack Rails app and API to serve spylight.com and Spylight iOS App.",
-        "Designed and developed admin interface to optimize collection of information by 50+ on-set consultants.",
+        "Designed and developed admin interface to optimize collection of information by 50+ on-set consultants."
       ]
     },
     {
@@ -83,22 +83,22 @@
         "Taught courses in software development to 25-50 students per semester.",
         "Served as Technical Lead for a team of 20 Student Developers designing, building, testing, and supporting applications for the University, including mission-critical academic applications.",
         "Met with clients from across the university to gather requirements and plan project development.",
-        "Served as lead instructor for 9-week immersive summer web development bootcamp with the Yale Entrepreneurial Institute.",
+        "Served as lead instructor for 9-week immersive summer web development bootcamp with the Yale Entrepreneurial Institute."
       ]
     },
     {
       "company": "Yale University",
       "position": "Assistant Manager, Student Technology",
       "website": "http://its.yale.edu/centers/student-technology-collaborative/",
-      "startDate": "2016-5-01",
-      "endDate": "2016-7-22",
+      "startDate": "2016-05-01",
+      "endDate": "2016-07-22",
       "summary": "",
       "highlights": [
         "Hired, trained, and managed 80 - 120 student employees per year (in technology & digital media support, application development).",
         "Served as technical and customer service lead for student help requests (~4000 / year), including Dell and Apple warranty-certified repairs.",
-        "Acted as a liaison between Yale ITS and the student body.",
+        "Acted as a liaison between Yale ITS and the student body."
       ]
-    },
+    }
   ],
   "volunteer": [
     {
@@ -113,7 +113,7 @@
         "Served as an advocate for the organization with external partners such as conference vendors",
         "Provide technology leadership and set up software to facilitate member outreach and conference organization",
         "As Vice President (2013 - 2014), led annual review and revision of corporation policies.",
-        "Delivered presentations and full-day workshops at annual conferences from 2008 - 2013.",
+        "Delivered presentations and full-day workshops at annual conferences from 2008 - 2013."
       ]
     },
     {
@@ -135,15 +135,15 @@
       "area": "Physics",
       "studyType": "Bachelor of Science",
       "startDate": "2003-09-01",
-      "endDate": "2007-12-15",
+      "endDate": "2007-12-15"
     },
     {
       "institution": "New York University",
       "area": "Computer Science",
       "studyType": "PAC I Course - NYU Grad School",
       "startDate": "2013-09-01",
-      "endDate": "2013-12-15",
-    },
+      "endDate": "2013-12-15"
+    }
   ],
   "awards": [
     {
@@ -163,7 +163,7 @@
         "Javascript / ES2015",
         "Backbone",
         "Angular 1.x (Proficient)",
-        "React / Redux",
+        "React / Redux"
       ]
     },
     {
@@ -172,7 +172,7 @@
       "keywords": [
         "Ruby / Rails",
         "Node.js / Express",
-        "PostgreSQL / MySQL / MongoDB",
+        "PostgreSQL / MySQL / MongoDB"
       ]
     },
     {
@@ -192,6 +192,5 @@
     {
       "name": "Traveling, non-fiction, nature photography, and cycling."
     }
-  ],
-  "references": ["Available on request."]
+  ]
 }
