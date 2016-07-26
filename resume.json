@@ -2,7 +2,7 @@
   "basics": {
     "name": "Adam Bray",
     "label": "Developer, Teacher, Optimizer",
-    "picture": "",
+    "picture": "http://adambray.me/adam_bray_square.jpg",
     "email": "adam.bray@gmail.com",
     "phone": "(203) 745-8767",
     "website": "http://adambray.me",
@@ -157,11 +157,14 @@
       "level": "Expert",
       "keywords": [
         "HTML",
-        "CSS / SASS",
-        "Javascript / ES2015",
+        "CSS",
+        "SASS",
+        "Javascript",
+        "ES6 / ES2015",
+        "React",
+        "Redux",
         "Backbone",
-        "Angular 1.x (Proficient)",
-        "React / Redux"
+        "Angular 1.x",
       ]
     },
     {
@@ -169,19 +172,22 @@
       "level": "Expert",
       "keywords": [
         "Ruby / Rails",
-        "Node.js / Express",
-        "PostgreSQL / MySQL / MongoDB"
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
       ]
     },
     {
       "name": "Other",
       "level": "Varies",
       "keywords": [
-        "Python (Proficient)",
-        "Machine Learning / Scikit-learn (Proficient)",
-        "Swift / iOS Developemt (Basic)",
+        "Python",
+        "Machine Learning / Scikit-learn",
+        "Swift / iOS Developemt",
         "Java (Basic)",
-        "Application Deployment / AWS (Proficient)"
+        "Application Deployment / AWS"
 
       ]
     }
