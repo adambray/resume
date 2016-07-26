@@ -37,11 +37,12 @@
       "summary": "",
       "highlights": [
         "Developed full-stack solution for an online code-editor, REPL, and test interface used by students of General Assembly's online JS course.",
-        "Along with one other developer, led the introduction of React/Redux to build a flexible interface capable of scaling to multiple language courses.",
+        "Led the introduction of React/Redux to build a flexible interface capable of scaling to multiple language courses.",
         "Built out early infrastructure for a new learning platform to be used by all GA students, focusing on integrating with existing GA core APIs."
       ]
     },
     {
+      "company": "General Assembly",
       "position": "Instructor, Web Development Immersive / Instructional Coach",
       "website": "http://generalassemb.ly",
       "startDate": "2014-02-01",
@@ -58,7 +59,7 @@
     {
       "company": "Spylight",
       "position": "Independent Consultant / Software Developer",
-      "website": "https://spylight.com",
+      "website": "http://spylight.com",
       "startDate": "2013-09-01",
       "endDate": "2014-03-15",
       "summary": "",
