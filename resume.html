@@ -1,0 +1,589 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Adam Bray</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Adam Bray
+					</h1>
+					<h2>
+						Developer, Teacher, Optimizer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f09194919dde92829189b0979d91999cde939f9d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(203) 745-8767</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://adambray.me">http://adambray.me</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>In my professional life, there are two things I care most about: mentoring others, and improving my skills to build better software. Through hard work and some amount of luck, I&#x27;ve managed to spend the last 8 years of my career blending these two passions.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/adambray">adambray</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/adambray">adambray</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>General Assembly</span>
+					<span class="date">
+						2016-05-01 — 2016-07-22
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://generalassemb.ly">http://generalassemb.ly</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Developed full-stack solution for an online code-editor, REPL, and test interface used by students of General Assembly&#x27;s online JS course.</li>
+					<li class="bullet">Along with one other developer, led the introduction of React/Redux to build a flexible interface capable of scaling to multiple language courses.</li>
+					<li class="bullet">Built out early infrastructure for a new learning platform to be used by all GA students, focusing on integrating with existing GA core APIs.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span></span>
+					<span class="date">
+						2014-02-01 — 2016-05-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://generalassemb.ly">http://generalassemb.ly</a>
+				</div>
+				<div class="position">
+					Instructor, Web Development Immersive / Instructional Coach
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Designed curriculum for and taught 12-week immersive courses in web development and data science.</li>
+					<li class="bullet">Led team of instructors in creating advanced applications for tracking student progress.</li>
+					<li class="bullet">Developed and delivered training for new instructors, and advanced workshops for returning instructors.</li>
+					<li class="bullet">Provided instructor feedback and coaching to ensure world-class instructional quality in all courses.</li>
+					<li class="bullet">Consistently received excellent feedback from students in all areas, averaging 4.7 / 5 over six courses.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Spylight</span>
+					<span class="date">
+						2013-09-01 — 2014-03-15
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://spylight.com">https://spylight.com</a>
+				</div>
+				<div class="position">
+					Independent Consultant / Software Developer
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Served as lead developer and technology consultant for seed-funded startup.</li>
+					<li class="bullet">Designed and implemented complex data model to track fashion information for TV, Movies, and more.</li>
+					<li class="bullet">Developed full-stack Rails app and API to serve spylight.com and Spylight iOS App.</li>
+					<li class="bullet">Designed and developed admin interface to optimize collection of information by 50+ on-set consultants.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Yale University</span>
+					<span class="date">
+						2012-07-01 — 2014-01-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://its.yale.edu/centers/student-technology-collaborative/student-developer-program">http://its.yale.edu/centers/student-technology-collaborative/student-developer-program</a>
+				</div>
+				<div class="position">
+					Program Manager, Student Developer Program
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Proposed, designed, and implemented the innovative Yale Student Developer Program; serving as program manager and chair of steering committee.</li>
+					<li class="bullet">Taught courses in software development to 25-50 students per semester.</li>
+					<li class="bullet">Served as Technical Lead for a team of 20 Student Developers designing, building, testing, and supporting applications for the University, including mission-critical academic applications.</li>
+					<li class="bullet">Met with clients from across the university to gather requirements and plan project development.</li>
+					<li class="bullet">Served as lead instructor for 9-week immersive summer web development bootcamp with the Yale Entrepreneurial Institute.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Yale University</span>
+					<span class="date">
+						2016-05-01 — 2016-07-22
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://its.yale.edu/centers/student-technology-collaborative/">http://its.yale.edu/centers/student-technology-collaborative/</a>
+				</div>
+				<div class="position">
+					Assistant Manager, Student Technology
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Hired, trained, and managed 80 - 120 student employees per year (in technology &amp; digital media support, application development).</li>
+					<li class="bullet">Served as technical and customer service lead for student help requests (~4000 / year), including Dell and Apple warranty-certified repairs.</li>
+					<li class="bullet">Acted as a liaison between Yale ITS and the student body.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>ResNet</span>
+					<span class="date">
+						2011-01-10 — 2014-01-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://resnetinc.org/">http://resnetinc.org/</a>
+				</div>
+				<div class="position">
+					Vice President / Director of Conference Management
+				</div>
+				<div class="summary">
+					<p>International non-profit focused on collaboraton among higher-ed institutions in the field of student technology.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Led all aspects of planning, coordination, and execution for the 2011 ResNet Student Technology Conference, including facilities, catering, and program content.</li>
+					<li class="bullet">Served as an advocate for the organization with external partners such as conference vendors</li>
+					<li class="bullet">Provide technology leadership and set up software to facilitate member outreach and conference organization</li>
+					<li class="bullet">As Vice President (2013 - 2014), led annual review and revision of corporation policies.</li>
+					<li class="bullet">Delivered presentations and full-day workshops at annual conferences from 2008 - 2013.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>RailsGirls</span>
+					<span class="date">
+						2014-01-20 — 2014-06-30
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://http://railsgirls.com/">http://http://railsgirls.com/</a>
+				</div>
+				<div class="position">
+					Coach / Mentor
+				</div>
+				<div class="summary">
+					<p>International non-profit that gives tools and a community for women to understand technology and to build their ideas.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Provided training / coaching for attendees of 2-day RailsGirls workshops.</li>
+					<li class="bullet">Provided ongoing mentorship to attendees of weekly meetups for learning web development.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Yale University</span>
+					<span class="date">
+						2003-09-01 — 2007-12-15
+					</span>
+				</h4>
+				<div class="area">
+					Physics
+				</div>
+				<div class="studyType">
+					Bachelor of Science
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>New York University</span>
+					<span class="date">
+						2013-09-01 — 2013-12-15
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					PAC I Course - NYU Grad School
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>SURF Research Fellowship</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2003-05-01
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Caltech - California Institute of Technology</strong>
+				</div>
+				<div class="summary">
+					One of few high school students awarded a research fellowship. During the summer of 2003, I continued my HS senior research in partnership with the LIGO Gravitation Wave Observatory. Research involved performing computational analysis to correlate seismic activity with gulf wave activity, in order to predict and actively cancel out seismic activity at the observatory.
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Front-End Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS / SASS</li>
+					<li>Javascript / ES2015</li>
+					<li>Backbone</li>
+					<li>Angular 1.x (Proficient)</li>
+					<li>React / Redux</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Back-End Web Developemnt</h4>
+				</div>
+				<ul class="keywords">
+					<li>Ruby / Rails</li>
+					<li>Node.js / Express</li>
+					<li>PostgreSQL / MySQL / MongoDB</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Other</h4>
+				</div>
+				<ul class="keywords">
+					<li>Python (Proficient)</li>
+					<li>Machine Learning / Scikit-learn (Proficient)</li>
+					<li>Swift / iOS Developemt (Basic)</li>
+					<li>Java (Basic)</li>
+					<li>Application Deployment / AWS (Proficient)</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Traveling, non-fiction, nature photography, and cycling.</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>

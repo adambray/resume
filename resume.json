@@ -164,7 +164,7 @@
         "React",
         "Redux",
         "Backbone",
-        "Angular 1.x",
+        "Angular 1.x"
       ]
     },
     {
@@ -183,6 +183,7 @@
       "name": "Other",
       "level": "Varies",
       "keywords": [
+        "Git / Collaborative Workflows",
         "Python",
         "Machine Learning / Scikit-learn",
         "Swift / iOS Developemt",
